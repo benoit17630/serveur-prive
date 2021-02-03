@@ -1,0 +1,21 @@
+-----------------------------------
+-- Area: VeLugannon Palace
+--  NPC: Door (Yellow)
+-- !pos 360.000 -2.974 340.000 177
+-----------------------------------
+local entity = {}
+
+entity.onTrade = function(player, npc, trade)
+end
+
+entity.onTrigger = function(player, npc)
+    return 0
+end
+
+entity.onEventUpdate = function(player, csid, option)
+end
+
+entity.onEventFinish = function(player, csid, option)
+end
+
+return entity

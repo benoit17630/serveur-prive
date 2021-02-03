@@ -1,0 +1,30 @@
+-----------------------------------
+-- Area: Bastok Markets
+--  NPC: Teerth
+--  Guild Merchant NPC: Goldsmithing Guild
+-- !pos -205.190 -7.814 -56.507 235
+-----------------------------------
+local ID = require("scripts/zones/Bastok_Markets/IDs")
+require("scripts/globals/shop")
+require("scripts/globals/settings")
+require("scripts/globals/status")
+-----------------------------------
+local entity = {}
+
+entity.onTrade = function(player, npc, trade)
+end
+
+entity.onTrigger = function(player, npc)
+    local guildSkillId = tpz.skill.GOLDSMITHING
+    local stock = tpz.shop.generalGuildStock[guildSkillId]
+    tpz.shop.generalGuild(player, stock, guildSkillId)
+    player:showText(npc, ID.text.TEERTH_SHOP_DIALOG)
+end
+
+entity.onEventUpdate = function(player, csid, option)
+end
+
+entity.onEventFinish = function(player, csid, option)
+end
+
+return entity

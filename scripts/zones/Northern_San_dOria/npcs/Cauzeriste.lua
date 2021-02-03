@@ -1,0 +1,30 @@
+-----------------------------------
+-- Area: Northern San d'Oria
+--  NPC: Cauzeriste
+-- Guild Merchant NPC: Woodworking Guild
+-- !pos -175.946 3.999 280.301 231
+-----------------------------------
+local ID = require("scripts/zones/Northern_San_dOria/IDs")
+require("scripts/globals/shop")
+require("scripts/globals/settings")
+require("scripts/globals/status")
+-----------------------------------
+local entity = {}
+
+entity.onTrade = function(player, npc, trade)
+end
+
+entity.onTrigger = function(player, npc)
+    local guildSkillId = tpz.skill.WOODWORKING
+    local stock = tpz.shop.generalGuildStock[guildSkillId]
+    tpz.shop.generalGuild(player, stock, guildSkillId)
+    player:showText(npc, ID.text.CAUZERISTE_SHOP_DIALOG)
+end
+
+entity.onEventUpdate = function(player, csid, option)
+end
+
+entity.onEventFinish = function(player, csid, option)
+end
+
+return entity

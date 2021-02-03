@@ -1,0 +1,15 @@
+-----------------------------------
+-- Area: Labyrinth of Onzozo
+--   NM: Peg Powler
+-----------------------------------
+require("scripts/globals/hunts")
+require("scripts/globals/regimes")
+-----------------------------------
+local entity = {}
+
+entity.onMobDeath = function(mob, player, isKiller)
+    tpz.hunts.checkHunt(mob, player, 297)
+    tpz.regime.checkRegime(player, mob, 774, 1, tpz.regime.type.GROUNDS)
+end
+
+return entity
