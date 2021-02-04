@@ -78,6 +78,7 @@ INSERT INTO bcnm_treasure_chests VALUES (18,3,17346770);
 INSERT INTO bcnm_treasure_chests VALUES (19,1,17346776); -- last_orc-shunned_hero
 INSERT INTO bcnm_treasure_chests VALUES (19,2,17346782);
 INSERT INTO bcnm_treasure_chests VALUES (19,3,17346788);
+INSERT INTO bcnm_treasure_chests VALUES (21,1,17346933); -- dismemberment_brigade_II
 
 -- ----------------------------
 -- Ghelsba Outpost

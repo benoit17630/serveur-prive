@@ -1,7 +1,7 @@
 -----------------------------------
--- Dismemberment Brigade
--- Horlais Peak BCNM60, Moon Orb
--- !additem 1130
+-- Dismemberment Brigade II
+-- Horlais Peak SKCNM20, Moon Orb
+-- !additem
 -----------------------------------
 require("scripts/globals/battlefield")
 -----------------------------------
