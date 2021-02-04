@@ -763,6 +763,64 @@ local loot =
             {itemid = 1132, droprate = 159}, -- Square Of Raxa
         },
     },
+    -- BCNM Dismemberment Brigade
+        [21] =
+        {
+            {
+                {itemid = 20956, droprate =  200}, -- Sibat
+                {itemid = 20818, droprate =  200}, -- Hurblat
+                {itemid = 20625, droprate =  200}, -- Secespita
+                {itemid = 20541, droprate =  200}, -- Pinion Cesti
+                {itemid = 17928, droprate =  200}, -- Pinion Cesti
+            },
+            {
+                {itemid =     0, droprate =  250}, -- nothing
+                {itemid = 8721, droprate =  125}, -- Hepatzion Ore
+                {itemid = 8725, droprate =  125}, -- Exalted log
+                {itemid = 837, droprate =  125}, -- Malboro fiber
+                {itemid = 1110, droprate =  125}, -- Beetle Blood
+                {itemid = 1311, droprate =  125}, -- Oxblood
+                {itemid = 836, droprate =  125}, -- Damascene Cloth
+            },
+            {
+                {itemid =     0, droprate =  200}, -- nothing
+                {itemid =   773, droprate =  200}, -- translucent_rock
+                {itemid =   772, droprate =  200}, -- green_rock
+                {itemid =   771, droprate =  200}, -- yellow_rock
+                {itemid =   774, droprate =  200}, -- purple_rock
+            },
+            {
+                {itemid =   797, droprate =  100}, -- painite
+                {itemid =   784, droprate =  100}, -- jadeite
+                {itemid =   653, droprate =  100}, -- mythril_ingot
+                {itemid =   652, droprate =  100}, -- steel_ingot
+                {itemid =   810, droprate =  100}, -- fluorite
+                {itemid =   745, droprate =  100}, -- gold_ingot
+                {itemid =   805, droprate =  100}, -- zircon
+                {itemid =   801, droprate =  100}, -- chrysoberyl
+                {itemid =   654, droprate =  100}, -- darksteel_ingot
+                {itemid =   802, droprate =  100}, -- moonstone
+            },
+            {
+                {itemid =     0, droprate =  900}, -- nothing
+                {itemid =  4175, droprate =  100}, -- vile_elixir_+1
+            },
+            {
+                {itemid =  4068, droprate =  1000}, -- REM chap 5
+            },
+            {
+                {itemid =  4068, droprate =  1000}, -- REM chap 5
+            },
+            {
+                {itemid =  4068, droprate =  1000}, -- REM chap 5
+            },
+            {
+                {itemid =  4068, droprate =  1000}, -- REM chap 5
+            },
+            {
+                {itemid =  4068, droprate =  1000}, -- REM chap 5
+            },
+        },
 }
 
 entity.onTrade = function(player, npc, trade)

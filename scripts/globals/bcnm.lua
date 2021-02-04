@@ -253,7 +253,7 @@ local battlefields = {
      -- {19,   19, 3352},   -- Last Orc-Shunned Hero (KC50)
         {20,   20,    0},   -- Beyond Infinity (Quest)
      -- {21,    ?, 4062},   -- *Tails of Woe (SKC10)
-     -- {22,    ?, 4063},   -- *Dismemberment Brigade (SKC20)
+        {22,   21, 4063},   -- *Dismemberment Brigade (SKC20)
      -- {23,    ?,    0},   -- A Feast Most Dire (Quest)
      -- {24,    ?,    0},   -- A.M.A.N. Trove (Mars)
      -- {25,    ?,    0},   -- A.M.A.N. Trove (Venus)

@@ -176,6 +176,12 @@ INSERT INTO `bcnm_battlefield` VALUES (17,3,17346754,3);
 INSERT INTO `bcnm_battlefield` VALUES (20,1,17346789,3); -- beyond_infinity (Horlais Peek)
 INSERT INTO `bcnm_battlefield` VALUES (20,2,17346790,3); -- beyond_infinity (Horlais Peek)
 INSERT INTO `bcnm_battlefield` VALUES (20,3,17346791,3); -- beyond_infinity (Horlais Peek)
+INSERT INTO `bcnm_battlefield` VALUES (21,1,17346928,3); -- dismemberment_brigade II Longarmed Gittitt MNK
+INSERT INTO `bcnm_battlefield` VALUES (21,1,17346929,3); -- Keeneyed AUfwuf BLM
+INSERT INTO `bcnm_battlefield` VALUES (21,1,17346930,3); -- Invulnerable Mazygoy PLD
+INSERT INTO `bcnm_battlefield` VALUES (21,1,17346931,3); -- Undefeatable Sappdapp DRK
+INSERT INTO `bcnm_battlefield` VALUES (21,1,17346932,3); -- RNG
+INSERT INTO `bcnm_battlefield` VALUES (21,1,17346927,3); -- WAR
 INSERT INTO `bcnm_battlefield` VALUES (32,1,17350662,3); -- save_the_children
 INSERT INTO `bcnm_battlefield` VALUES (32,1,17350663,3);
 INSERT INTO `bcnm_battlefield` VALUES (32,1,17350664,3);

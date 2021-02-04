@@ -67,6 +67,7 @@ INSERT INTO `bcnm_info` VALUES (17,139,'contaminated_colosseum','nobody',0,1800,
 INSERT INTO `bcnm_info` VALUES (18,139,'kindergarten_cap','nobody',0,900,900,0,3,18,15,0);
 INSERT INTO `bcnm_info` VALUES (19,139,'last_orc-shunned_hero','nobody',0,1800,1800,0,6,19,15,0);
 INSERT INTO `bcnm_info` VALUES (20,139,'beyond_infinity','nobody',0,600,600,99,6,0,5,0);
+INSERT INTO `bcnm_info` VALUES (21,139,'dismemberment_brigade_II','nobody',0,1800,1800,99,6,21,15,0);
 INSERT INTO `bcnm_info` VALUES (32,140,'save_the_children','nobody',0,600,600,99,6,0,5,0);
 INSERT INTO `bcnm_info` VALUES (33,140,'holy_crest','nobody',0,600,600,0,6,0,7,0);
 INSERT INTO `bcnm_info` VALUES (34,140,'wings_of_fury','nobody',0,900,900,20,3,34,15,0);
