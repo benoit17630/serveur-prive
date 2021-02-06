@@ -209,7 +209,7 @@ INSERT INTO bcnm_treasure_chests VALUES (132,3,17444939);
 INSERT INTO bcnm_treasure_chests VALUES (162,1,17453079); -- kindred_spirits
 INSERT INTO bcnm_treasure_chests VALUES (162,2,17453086);
 INSERT INTO bcnm_treasure_chests VALUES (162,3,17453093);
-
+INSERT INTO bcnm_treasure_chests VALUES (165,1,17453136); --skcnm 20
 -- ----------------------------
 -- Chamber of Oracles
 -- ----------------------------
