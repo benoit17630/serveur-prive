@@ -1,5 +1,5 @@
 -----------------------------------
--- Kindred Spirit
+-- Kindred Spirits
 -- Throne Room BCNM60, Moon Orb
 -- !additem 1130
 -----------------------------------
@@ -8,7 +8,7 @@ require("scripts/globals/battlefield")
 local battlefield_object = {}
 
 battlefield_object.onBattlefieldInitialise = function(battlefield)
-    battlefield:setLocalVar("loot", 1)
+    battlefield:setLocalVar("loot",1)
 end
 
 battlefield_object.onBattlefieldTick = function(battlefield, tick)
